@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- links css -->
-    <link rel="stylesheet" href="src/global.css">
+    <link rel="stylesheet" href="src/css/global.css">
     <title>Test</title>
 </head>
 <body>
     
     <header>
         <h1>
-            Texto
+            APRENDENDO ( MATHEUS STOPINSKI )
         </h1>
     </header>
 
@@ -116,17 +116,17 @@
     </section>
 
     <section>
-        <h2>Contato</h2>
-        <form method="get" action="">            
-            <label>Nome</label><br>
+        <h2>Formulário para contato</h2>
+        <form method="get" action="" id="FormContato">            
+            <label>Nome:</label>
             <input type="text" name="nome">
-            <br>
-            <label>Email</label><br>
-            <input type="text" required name="email"> <br><br>
             
-            <label for=""></label>
-            <textarea rows="4" name="Comentario" id=""></textarea><br>
-            <button>Salvar</button>                    
+            <label>Email:</label>
+            <input type="text" required name="email">
+            
+            <label for="" class="comentarioLabel">Comentário:</label>
+            <textarea rows="4" name="Comentario" id="textArea"></textarea>
+            <button class="custom-btn btn-9" id="botao">Salvar</button>                    
             
         </form>
     </section>
