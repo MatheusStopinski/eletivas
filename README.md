@@ -1,1 +1,1 @@
-irm https://claude.ai/install.ps1
+$env:Path += ";C:\Users\mathe\.local\bin"
